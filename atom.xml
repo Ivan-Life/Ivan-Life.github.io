@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ivan-life.github.io/"/>
-  <updated>2019-10-06T05:44:20.309Z</updated>
+  <updated>2019-10-06T04:43:39.268Z</updated>
   <id>http://ivan-life.github.io/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Just KIDDing</title>
-    <link href="http://ivan-life.github.io/2019/10/06/New-day/"/>
-    <id>http://ivan-life.github.io/2019/10/06/New-day/</id>
-    <published>2019-10-06T05:41:18.420Z</published>
-    <updated>2019-10-06T05:44:20.309Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="hexo-theme-melody-v1-5"><a href="#hexo-theme-melody-v1-5" class="headerlink" title="hexo-theme-melody v1.5"></a>hexo-theme-melody <small>v1.5</small></h3><!-- .slide: data-background="#49B1F5" --><p>Supports iframe &amp; slides. You can use a layout called <code>slides</code> to enabled the slides layout.</p><p>Also you can add a <code>iframe</code> front-matter with the <code>slides</code> layout in your <code>md</code> file to enable the iframe page.</p><h3 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h3><!-- .slide: data-transition="concave" data-background="#C7916B" --><h4 id="1-Add-a-slides-page"><a href="#1-Add-a-slides-page" class="headerlink" title="1. Add a slides page"></a>1. Add a slides page</h4><p>// ……</p><p>==</p><p>// ……</p><p>===</p><h4 id="2-Add-the-layout-type"><a href="#2-Add-the-layout-type" class="headerlink" title="2. Add the layout type"></a>2. Add the layout type</h4><!-- .slide: data-transition="fade" data-background="#00C4B6" --><p>// ……</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://ivan-life.github.io/categories/Diary/"/>
-    
-    
-      <category term="NEW" scheme="http://ivan-life.github.io/tags/NEW/"/>
-    
-  </entry>
   
   <entry>
     <title>Just KIDDing</title>

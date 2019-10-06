@@ -41,50 +41,50 @@ function updateCoords (e) {
   pointerY = e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top
 }
 
-function setParticuleDirection (p) {
+function setParticuleDirection (e) {
   var angle = anime.random(0, 360) * Math.PI / 180
   var value = anime.random(50, 180)
   var radius = [-1, 1][anime.random(0, 1)] * value
   return {
-    x: p.x + radius * Math.cos(angle),
-    y: p.y + radius * Math.sin(angle)
+    x: e.x + radius * Math.cos(angle),
+    y: e.y + radius * Math.sin(angle)
   }
 }
 
-function createParticule (x, y) {
-  var p = {}
-  p.x = x
-  p.y = y
-  p.color = colors[anime.random(0, colors.length - 1)]
-  p.radius = anime.random(16, 32)
-  p.endPos = setParticuleDirection(p)
-  p.draw = function () {
+function createParticule (e, t) {
+  var a = {}
+  a.x = e
+  a.y = t
+  a.color = colors[anime.random(0, colors.length - 1)]
+  a.radius = anime.random(16, 32)
+  a.endPos = setParticuleDirection(a)
+  a.draw = function () {
     ctx.beginPath()
-    ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, true)
-    ctx.fillStyle = p.color
+    ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, true)
+    ctx.fillStyle = a.color
     ctx.fill()
   }
-  return p
+  return a
 }
 
-function createCircle (x, y) {
-  var p = {}
-  p.x = x
-  p.y = y
-  p.color = '#F00'
-  p.radius = 0.1
-  p.alpha = 0.5
-  p.lineWidth = 6
-  p.draw = function () {
-    ctx.globalAlpha = p.alpha
+function createCircle (e, t) {
+  var a= {}
+  a.x = e
+  a.y = t
+  a.color = '#F00'
+  a.radius = 0.1
+  a.alpha = 0.5
+  a.lineWidth = 6
+  a.draw = function () {
+    ctx.globalAlpha = a.alpha
     ctx.beginPath()
-    ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, true)
-    ctx.lineWidth = p.lineWidth
-    ctx.strokeStyle = p.color
+    ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, true)
+    ctx.lineWidth = a.lineWidth
+    ctx.strokeStyle = a.color
     ctx.stroke()
     ctx.globalAlpha = 1
   }
-  return p
+  return a
 }
 
 function renderParticule (anim) {

@@ -1,7 +1,7 @@
 var canvasEl = document.querySelector('.fireworks')
 if (canvasEl) {
   var ctx = canvasEl.getContext('2d')
-  var numberOfParticules = 20
+  var numberOfParticules = 30
   var pointerX = 0
   var pointerY = 0
   // var tap = ('ontouchstart' in window || navigator.msMaxTouchPoints) ? 'touchstart' : 'mousedown'
@@ -42,8 +42,8 @@ function updateCoords (e) {
 }
 
 function setParticuleDirection (e) {
-  var angle = anime.random(0, 250) * Math.PI / 120
-  var value = anime.random(30, 80)
+  var angle = anime.random(0, 360) * Math.PI / 180
+  var value = anime.random(50, 180)
   var radius = [-1, 1][anime.random(0, 1)] * value
   return {
     x: e.x + radius * Math.cos(angle),
@@ -108,20 +108,20 @@ function animateParticules (x, y) {
       return p.endPos.y
     },
     radius: 0.1,
-    duration: anime.random(800, 1200),
+    duration: anime.random(1200, 1800),
     easing: 'easeOutExpo',
     update: renderParticule
   })
     .add({
       targets: circle,
-      radius: anime.random(50, 100),
+      radius: anime.random(80, 160),
       lineWidth: 0,
       alpha: {
         value: 0,
         easing: 'linear',
-        duration: anime.random(400, 600)
+        duration: anime.random(800, 160)
       },
-      duration: anime.random(800, 1200),
+      duration: anime.random(1200, 1800),
       easing: 'easeOutExpo',
       update: renderParticule,
       offset: 0

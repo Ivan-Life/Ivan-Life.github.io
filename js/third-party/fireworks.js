@@ -8,7 +8,7 @@ if (canvasEl) {
   // Fixed the mobile scroll
   var tap = 'mousedown'
   var colors = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C']
-
+  var background = ['z-index:99999']
   var setCanvasSize = debounce(function () {
     canvasEl.width = window.innerWidth
     canvasEl.height = window.innerHeight

@@ -1,7 +1,7 @@
 var canvasEl = document.querySelector('.fireworks')
 if (canvasEl) {
   var ctx = canvasEl.getContext('2d')
-  var numberOfParticules = 30
+  var numberOfParticules = 20
   var pointerX = 0
   var pointerY = 0
   // var tap = ('ontouchstart' in window || navigator.msMaxTouchPoints) ? 'touchstart' : 'mousedown'

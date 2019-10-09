@@ -4970,16 +4970,19 @@ canvas,
   max-height: 10.5rem;
 } 
 #circle {   
-  background-color: rgba(17, 17, 17, 0);   
-  border:5px solid rgba(9, 66, 223, 0.925);   
+  background-color: rgba(0, 0, 0, 0);   
+  border:5px solid rgba(1, 114, 180, 0.959);   
   opacity:.9;   
   border-right:5px solid rgba(0,0,0,0);   
   border-left:5px solid rgba(0,0,0,0);   
   border-radius:50px;   
-  box-shadow: 0 0 35px #028bb4;   
-  display: flex;
-  height:50px;
-  align-items: center;
+  box-shadow: 0 0 35px #1788e6;   
+  width:50px;   
+  height:50px;   
+  margin:0 auto;          
+  position:fixed;   
+  left:50%;   
+  bottom:50%; 
   -moz-animation:spinPulse 1s infinite ease-in-out;   
   -webkit-animation:spinPulse 1s infinite ease-in-out;   
   -o-animation:spinPulse 1s infinite ease-in-out;   
@@ -4987,16 +4990,18 @@ canvas,
 }   
 #circle1 {   
   background-color: rgba(0, 0, 0, 0);   
-  border:5px solid rgba(13, 81, 207, 0.945);   
+  border:5px solid rgba(1, 114, 180, 0.959);   
   opacity:.9;   
   border-left:5px solid rgba(0,0,0,0);   
   border-right:5px solid rgba(0,0,0,0);   
   border-radius:50px;   
-  box-shadow: 0 0 15px #04799c;    
-  counter-increment:30px;  
-  display: flex;
-  height:35px;
-  margin:0 auto; 
+  box-shadow: 0 0 15px #1788e6;    
+  width:30px;   
+  height:30px;   
+  margin:0 auto;   
+  position:fixed;   
+  left:50%;   
+  bottom:50%; 
   -moz-animation:spinoffPulse 1s infinite linear;   
   -webkit-animation:spinoffPulse 1s infinite linear;   
   -o-animation:spinoffPulse 1s infinite linear;   

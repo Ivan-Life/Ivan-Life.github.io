@@ -4978,8 +4978,7 @@ canvas,
   border-radius:50px;   
   box-shadow: 0 0 35px #028bb4;   
   width:60px;   
-  height:60px;   
-  margin:0 auto;                   
+  height:60px;                    
   position:absolute;   
   left:50%;   
   margin-left: -100%; 
@@ -4998,8 +4997,7 @@ canvas,
   box-shadow: 0 0 15px #04799c;    
   counter-increment:30px;   
   width:40px;   
-  height:40px;   
-  margin:0 auto;                   
+  height:40px;                      
   position:absolute;   
   left:50%;   
   margin-left: -100%;  

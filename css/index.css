@@ -4968,7 +4968,8 @@ canvas,
 #local-search .search-result-list {
   overflow-y: auto;
   max-height: 10.5rem;
-} #circle {   
+} 
+#circle {   
   background-color: rgba(17, 17, 17, 0);   
   border:5px solid rgba(9, 66, 223, 0.925);   
   opacity:.9;   
@@ -4977,15 +4978,15 @@ canvas,
   border-radius:50px;   
   box-shadow: 0 0 35px #028bb4;   
   width:60px;   
-        height:60px;   
-            margin:0 auto;          
-        position:absolute;   
-            left:40px;   
-            bottom:40px; 
-  -moz-animation:spinPulse 1s infinite ease-in-out;   
-  -webkit-animation:spinPulse 1s infinite ease-in-out;   
-  -o-animation:spinPulse 1s infinite ease-in-out;   
-  -ms-animation:spinPulse 1s infinite ease-in-out;   
+  height:60px;   
+      margin:0 auto;                   
+  position:relative;   
+      top:50%;   
+      transform:translateY(-50%); 
+  -moz-animation:spinPulse 5s infinite ease-in-out;   
+  -webkit-animation:spinPulse 5s infinite ease-in-out;   
+  -o-animation:spinPulse 5s infinite ease-in-out;   
+  -ms-animation:spinPulse 5s infinite ease-in-out;   
 }   
 #circle1 {   
   background-color: rgba(0, 0, 0, 0);   
@@ -4997,11 +4998,11 @@ canvas,
   box-shadow: 0 0 15px #04799c;    
   counter-increment:30px;   
   width:40px;   
-        height:40px;   
-            margin:0 auto;          
-        position:absolute;   
-            left:50px;   
-            bottom:50px;  
+  height:40px;   
+      margin:0 auto;          
+  position:relative;   
+      top:50%;   
+      transform:translateY(-50%);  
   -moz-animation:spinoffPulse 5s infinite linear;   
   -webkit-animation:spinoffPulse 5s infinite linear;   
   -o-animation:spinoffPulse 5s infinite linear;   

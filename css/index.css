@@ -4981,12 +4981,12 @@ canvas,
   height:50px;   
   margin:0 auto;          
   position:fixed;   
-  left:50%;   
-  bottom:50%; 
-  -moz-animation:spinPulse 10s infinite ease-in-out;   
-  -webkit-animation:spinPulse 10s infinite ease-in-out;   
-  -o-animation:spinPulse 10s infinite ease-in-out;   
-  -ms-animation:spinPulse 10s infinite ease-in-out;   
+  left:35%;   
+  bottom:35%; 
+  -moz-animation:spinPulse 100s infinite ease-in-out;   
+  -webkit-animation:spinPulse 100s infinite ease-in-out;   
+  -o-animation:spinPulse 100s infinite ease-in-out;   
+  -ms-animation:spinPulse 100s infinite ease-in-out;   
 }   
 #circle1 {   
   background-color: rgba(0, 0, 0, 0);   
@@ -5000,12 +5000,12 @@ canvas,
   height:35px;   
   margin:0 auto;   
   position:fixed;   
-  left:40%;   
-  bottom:40%; 
-  -moz-animation:spinoffPulse 10s infinite linear;   
-  -webkit-animation:spinoffPulse 10s infinite linear;   
-  -o-animation:spinoffPulse 10s infinite linear;   
-  -ms-animation:spinoffPulse 10s infinite linear;   
+  left:50%;   
+  bottom:50%; 
+  -moz-animation:spinoffPulse 100s infinite linear;   
+  -webkit-animation:spinoffPulse 100s infinite linear;   
+  -o-animation:spinoffPulse 100s infinite linear;   
+  -ms-animation:spinoffPulse 100s infinite linear;   
 }   
 @-moz-keyframes spinPulse {   
   0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #505050;}   

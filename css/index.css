@@ -4977,11 +4977,9 @@ canvas,
   border-left:5px solid rgba(0,0,0,0);   
   border-radius:50px;   
   box-shadow: 0 0 35px #028bb4;   
-  width:60px;   
-  height:60px;                    
-  position:absolute;   
-  left:50%;   
-  margin-left: -100%; 
+  display: flex;
+  height:100vh;
+  align-items: center;
   -moz-animation:spinPulse 1s infinite ease-in-out;   
   -webkit-animation:spinPulse 1s infinite ease-in-out;   
   -o-animation:spinPulse 1s infinite ease-in-out;   
@@ -4996,11 +4994,7 @@ canvas,
   border-radius:50px;   
   box-shadow: 0 0 15px #04799c;    
   counter-increment:30px;   
-  width:40px;   
-  height:40px;                      
-  position:absolute;   
-  left:50%;   
-  margin-left: -100%;  
+  margin:0 auto; 
   -moz-animation:spinoffPulse 1s infinite linear;   
   -webkit-animation:spinoffPulse 1s infinite linear;   
   -o-animation:spinoffPulse 1s infinite linear;   

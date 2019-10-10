@@ -34,9 +34,16 @@ $(function () {
   } else {
     $('#toggle-sidebar').css('opacity', '1')
   }
+  
+  
 
-
-  /**
+  $(window).load(function() {
+	//$("#loading").delay(2000).fadeOut(500);
+	$("#loading-center").click(function() {
+	$("#loading").fadeOut(500);
+	})
+  
+   /**
    * 點擊左下角箭頭,顯示sidebar
    */
   $('#toggle-sidebar').on('click', function () {

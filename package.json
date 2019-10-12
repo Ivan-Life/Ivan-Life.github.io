@@ -6,6 +6,7 @@
     "version": "3.9.0"
   },
   "dependencies": {
+    "constantinople": "^4.0.1",
     "hexo": "^3.9.0",
     "hexo-deployer-git": "^2.0.0",
     "hexo-filter-optimize": "^0.2.7",
@@ -25,5 +26,8 @@
     "jad": "0.0.0",
     "node-sass": "^4.12.0",
     "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "clean-css": "^4.2.1"
   }
 }

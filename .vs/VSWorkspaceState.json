@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\themes",
+    "\\themes\\Butterfly",
+    "\\themes\\Butterfly\\layout",
+    "\\themes\\Butterfly\\layout\\includes",
+    "\\themes\\Butterfly\\scripts",
+    "\\themes\\Butterfly\\source",
+    "\\themes\\Butterfly\\source\\js\\third-party",
+    "\\themes\\landscape",
+    "\\themes\\landscape\\source",
+    "\\themes\\landscape\\source\\js"
+  ],
+  "SelectedNode": "\\themes\\Butterfly\\layout\\includes\\footer.pug",
+  "PreviewInSolutionExplorer": false
+}

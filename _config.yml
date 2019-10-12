@@ -100,8 +100,7 @@ fireworks:
 
 deploy:
   type: git
-  repository: git@github.com:Ivan-Life/Ivan-Life.github.io.git
+  repository: https://github.com/Ivan-Life/Ivan-Life.github.io.git
   name: Ivan-Life
   email: ivan_jiang0106@163.com
   branch: master
- 

@@ -28,6 +28,6 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
-    "clean-css": "^4.2.1"
+    "clean-css": "^4.2.3"
   }
 }

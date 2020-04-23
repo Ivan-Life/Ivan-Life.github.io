@@ -24,7 +24,7 @@
     "hexo-server": "^1.0.0",
     "hexo-tag-aplayer": "^3.0.4",
     "jad": "0.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.0",
     "pug": "^2.0.4"
   },
   "devDependencies": {
